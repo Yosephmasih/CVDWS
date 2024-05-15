@@ -1,0 +1,26 @@
+
+
+.protanopia{
+	filter: url('#protanopia');
+	-webkit-filter: url('#protanopia');
+	color-interpolation-filters:sRGB;	
+}
+
+.deuteranopia{
+	filter: url('#deuteranopia');
+	-webkit-filter: url('#deuteranopia');
+	color-interpolation-filters:sRGB;	
+}
+
+.tritanopia{
+	filter: url('#tritanopia');
+	-webkit-filter: url('#tritanopia');
+	color-interpolation-filters:sRGB;	
+}
+
+.achromatopsia{
+	filter: url('#achromatopsia');
+	-webkit-filter: url('#achromatopsia');
+	color-interpolation-filters:sRGB;
+
+}

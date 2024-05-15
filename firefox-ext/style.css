@@ -1,0 +1,38 @@
+body{
+	font-family:'Calibri';
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+	width: 200px;
+	padding: 10px;
+	background: rgb(156, 199, 255);
+}
+
+a{
+	color:black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+label{
+	cursor: pointer;
+	display: inline-block;
+	width: 100%;
+}
+
+hr{
+	width: 98%;
+	margin: 2px auto;
+	opacity: 80%;
+	border: 0.6px solid rgb(0, 0, 29);
+	
+  }
+  
+button{
+	background: green;
+	height: 100px;
+	width: 200px;
+}

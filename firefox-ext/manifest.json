@@ -1,0 +1,38 @@
+{
+	"manifest_version": 2,
+	
+	"name": "CVDSW",
+	"description": "Simulate color blindness in your web browser.",
+	"version": "1.0.3",
+	"homepage_url": "http://www.rgblind.se",
+	
+	"content_scripts": [
+	  	{
+	        "matches": [
+		        "https://*/*",
+		        "http://*/*",
+		        "<all_urls>"
+	        ],
+	        "js": ["simulator/simulator.js","content.js"],
+	        "run_at": "document_end",
+	        "all_frames": true
+	    }
+	],
+
+	"browser_action": {
+		"default_icon": "icons/128.png",
+		"default_popup": "popup.html",
+		"default_title": "CVDSW - simulate color blindness."
+	},
+	"icons": {
+		"16": "icons/16.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png" },
+	"permissions": [
+		"https://ajax.googleapis.com/"
+	],
+	"web_accessible_resources": [
+		"simulator/simulator.svg",
+		"simulator/simulator-inject.css"	
+	]
+}

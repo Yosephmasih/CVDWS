@@ -1,0 +1,92 @@
+body {
+    font-family: 'Karma', serif;
+  
+    
+  }
+  
+  /* Utility Classes */
+  
+  .border-pox, p {
+    max-width: 800px;
+
+  }
+  .her{
+    margin-top: 50px;
+  }
+  
+  .space-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .border-box {
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-color: #000000;
+    color: black;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10%;
+    width: 80%;
+    
+    
+    
+  }
+  
+  
+  .border-box--green {
+    background-color: #ffffff;
+    border-color: #000000;
+    border: 1px solid black;
+    color:rgb(0, 0, 0);
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    
+   
+    
+
+  }
+ 
+  
+  .border-box--blue {
+    background-color: #ffffff;
+    border-color: 1px solid black;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 10%;
+    width: 80%;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.2);
+   
+  }
+ 
+  .divider {
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(48, 48, 48);
+  }
+  
+  /* Styling for PDF pages */
+  
+  .pdf__information h3 {
+    margin: 0;
+  }
+  
+  .pdf__buttons {
+    margin: 10px;
+  }
+  
+  .pdf-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  
+  .pdf-page__filter__description {
+    margin-left: 15px;
+  }
+  
